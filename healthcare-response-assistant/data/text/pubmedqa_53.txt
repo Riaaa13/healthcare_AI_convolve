@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 53
+
+QUESTION:
+Processing fluency effects: can the content and presentation of participant information sheets influence recruitment and participation for an antenatal intervention?
+
+CONTEXT:
+{'contexts': ["To assess the extent to which the title and font of participant information sheets (PISs) can influence pregnant women's and trainee midwives' perceptions of an antenatal intervention.", 'Pregnant women (n=35) and trainee midwives (n=36) were randomly presented with one of four PISs where the title and font of the PIS had been manipulated to create four experimental conditions (i.e., Double Fluent; Double Awkward; Fluent Title-Awkward Font; Awkward Title-Fluent Font). After reading the PIS, participants rated their perceptions of the intervention (i.e., Attractiveness, Complexity, Expected Risk, Required Effort) using five-point Likert scales.', 'A 4×2 factorial multivariate analysis of variance revealed that pregnant women rated the Double Awkward condition as significantly more complex than the Double Fluent (p=.024) and Awkward Title-Fluent Font (p=.021) conditions.'], 'labels': ['OBJECTIVE', 'METHODS', 'RESULTS'], 'meshes': ['Adult', 'Female', 'Humans', 'Midwifery', 'Multivariate Analysis', 'Pamphlets', 'Patient Selection', 'Pregnancy', 'Pregnant Women', 'Prenatal Care', 'Reading'], 'reasoning_required_pred': ['y', 'e', 's'], 'reasoning_free_pred': ['y', 'e', 's']}
+
+LONG_ANSWER:
+Font influenced pregnant women's ratings of intervention complexity.

@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 62
+
+QUESTION:
+Cold preparation use in young children after FDA warnings: do concerns still exist?
+
+CONTEXT:
+{'contexts': ['To characterize the use and delivery of cough and cold medicines in children younger than 6 presenting to an inner-city pediatric emergency department (PED) following 2007 FDA warnings.', 'A cross-sectional observational study was performed using a convenience sampling of PED patients during the fall of 2010. Caregivers were presented with 6 commonly used cough medicine preparations and were asked to demonstrate if and how they would administer these to their children.', 'In all, 65 patients and their caregivers consented and participated in the study. During the demonstration, 82% (53/65) stated that they would treat with cough or cold medicines, and 72% (38/53) incorrectly dosed the medication they desired to give.'], 'labels': ['OBJECTIVE', 'METHODS', 'RESULTS'], 'meshes': ['Antitussive Agents', 'Caregivers', 'Child', 'Child, Preschool', 'Common Cold', 'Cough', 'Cross-Sectional Studies', 'Drug Packaging', 'Female', 'Humans', 'Infant', 'Infant, Newborn', 'Male', 'Nasal Decongestants', 'Nonprescription Drugs', 'United States', 'United States Food and Drug Administration'], 'reasoning_required_pred': ['y', 'e', 's'], 'reasoning_free_pred': ['m', 'a', 'y', 'b', 'e']}
+
+LONG_ANSWER:
+Despite current recommendations, cough and cold medicines are still used in children younger than 6 years of age. A significant portion of caregivers report that they are still unaware of public warnings, potential side effects, and interactions with other medications.

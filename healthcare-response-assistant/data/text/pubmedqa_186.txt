@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 186
+
+QUESTION:
+Actinobaculum schaalii, a cause of urinary tract infections in children?
+
+CONTEXT:
+{'contexts': ['Urine samples were examined by wet smear microscopy, incubated in 5% CO(2) for 1-2 days, and species-specific real-time polymerase chain reaction (PCR) for A. schaalii was performed.', 'In 5 of the 29 screened urines, A. schaalii was found only by real-time PCR in quantities equivalent to ≥ 10(4) -10(5) CFU/mL. In addition, A. schaalii was found in quantities equivalent to ≥ 10(6) CFU/mL by both culture and PCR in two children with a urinary tract infection and large numbers of leucocytes in the urine.'], 'labels': ['METHODS', 'RESULTS'], 'meshes': ['Adolescent', 'Child, Preschool', 'Female', 'Gram-Positive Bacteria', 'Gram-Positive Bacterial Infections', 'Humans', 'Infant', 'Male', 'Retrospective Studies', 'Urinary Tract Infections'], 'reasoning_required_pred': ['y', 'e', 's'], 'reasoning_free_pred': ['m', 'a', 'y', 'b', 'e']}
+
+LONG_ANSWER:
+Actinobaculum schaalii is CO(2)-dependent. Therefore, if there are clinical symptoms and/or a negative culture despite the presence of leucocytes in the urine, Gram staining and incubation in 5% CO(2) or species-specific real-time PCR should be performed to identify A. schaalii.

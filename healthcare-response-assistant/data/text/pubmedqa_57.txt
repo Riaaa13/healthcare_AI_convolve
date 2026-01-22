@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 57
+
+QUESTION:
+Human papillomavirus and pterygium. Is the virus a risk factor?
+
+CONTEXT:
+{'contexts': ['Pterygium is a disease of unknown origin and pathogenesis that might be vision threatening. It is characterised by a wing-like conjunctival overgrowth of the cornea. Several studies have investigated human papillomavirus (HPV) as a risk factor for the development of pterygia, but the results are inconclusive.AIM: To investigate a large sample of pterygia for the presence of HPV in order to clarify the putative association between pterygia and HPV.', '100 specimens of pterygium from Danish patients and 20 normal conjunctival biopsy specimens were investigated for the presence of HPV with PCR technique using beta-globin primers to access the quality of the extracted DNA and the HPV primers MY09/11 and GP5+/6+. HPV-positive specimens underwent subsequent HPV typing with type-specific HPV primers and further investigation with DNA in situ hybridisation (ISH).', '90 of 100 investigated pterygia proved suitable for HPV analysis by PCR. As beta-globin could not be amplified, 10 specimens were excluded from the study. 4 of 90 pterygia harboured HPV. HPV type 6 was identified in all four HPV-positive pterygia. The 20 normal conjunctival biopsy specimens were beta-globin positive and HPV negative. All four pterygia that were HPV type 6 positive were DNA ISH negative.'], 'labels': ['BACKGROUND', 'METHODS', 'RESULTS'], 'meshes': ['Adult', 'Aged', 'Aged, 80 and over', 'Cornea', 'DNA, Viral', 'Female', 'Humans', 'Male', 'Middle Aged', 'Papillomaviridae', 'Papillomavirus Infections', 'Polymerase Chain Reaction', 'Pterygium', 'Risk Factors', 'Tumor Virus Infections'], 'reasoning_required_pred': ['m', 'a', 'y', 'b', 'e'], 'reasoning_free_pred': ['n', 'o']}
+
+LONG_ANSWER:
+The low presence of HPV DNA in pterygia does not support the hypothesis that HPV is involved in the development of pterygia in Denmark.

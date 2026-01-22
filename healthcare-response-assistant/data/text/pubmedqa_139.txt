@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 139
+
+QUESTION:
+Locoregional opening of the rodent blood-brain barrier for paclitaxel using Nd:YAG laser-induced thermo therapy: a new concept of adjuvant glioma therapy?
+
+CONTEXT:
+{'contexts': ['Nd:YAG laser-induced thermo therapy (LITT) of rat brains is associated with blood-brain barrier (BBB) permeability changes. We address the question of whether LITT-induced locoregional disruption of the BBB could possibly allow a locoregional passage of chemotherapeutic agents into brain tissue to treat malignant glioma.STUDY DESIGN/', 'CD Fischer rats were subject to LITT of the left forebrain. Disruption of the BBB was analyzed using Evans blue and immunohistochemistry (IH). Animals were perfused with paclitaxel, and high-pressure liquid chromatography (HPLC) was employed to analyze the content of paclitaxel in brain and plasma samples.', 'LITT induces an opening of the BBB as demonstrated by locoregional extravasation of Evans blue, C3C, fibrinogen, and IgM. HPLC proved the passage of paclitaxel across the disrupted BBB.'], 'labels': ['BACKGROUND AND OBJECTIVES', 'MATERIALS AND METHODS', 'RESULTS'], 'meshes': ['Administration, Topical', 'Animals', 'Antineoplastic Agents, Phytogenic', 'Blood-Brain Barrier', 'Brain Neoplasms', 'Chemotherapy, Adjuvant', 'Glioma', 'Hyperthermia, Induced', 'Laser Therapy', 'Neurosurgical Procedures', 'Paclitaxel', 'Permeability', 'Rats', 'Rats, Inbred F344'], 'reasoning_required_pred': ['y', 'e', 's'], 'reasoning_free_pred': ['y', 'e', 's']}
+
+LONG_ANSWER:
+LITT induces a locoregional passage of chemotherapeutic agents into the brain tissue. This is of potential interest for the treatment of brain tumors.

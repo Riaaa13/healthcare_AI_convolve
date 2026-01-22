@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 192
+
+QUESTION:
+Is the holmium:YAG laser the best intracorporeal lithotripter for the ureter?
+
+CONTEXT:
+{'contexts': ['To study the efficiency and safety of holmium:YAG laser lithotripsy for ureteral stones.', 'A series of 188 patients with 208 ureteral stones were treated with semirigid ureteroscopy and holmium:YAG laser lithotripsy from January 2003 to December 2005. Of the stones, 116 were lower ureteral, 37 middle ureteral, and 55 upper ureteral.', 'The success rate was 92.7% at the time of ureteroscopy and 96.7% at 3 months. The failures were secondary to retropulsion of the stones (3.3%). There were no perforations and one stricture. Stenting was done in 90% of patients.'], 'labels': ['PURPOSE', 'PATIENTS AND METHODS', 'RESULTS'], 'meshes': ['Adolescent', 'Adult', 'Aged', 'Aged, 80 and over', 'Child', 'Child, Preschool', 'Female', 'Humans', 'Lithotripsy, Laser', 'Male', 'Middle Aged', 'Retrospective Studies', 'Stents', 'Treatment Outcome', 'Ureteral Calculi', 'Ureteroscopy'], 'reasoning_required_pred': ['y', 'e', 's'], 'reasoning_free_pred': ['y', 'e', 's']}
+
+LONG_ANSWER:
+The Holmium:YAG laser is an ideal intracorporeal lithotripter for ureteral calculi, with a high success rate and low morbidity.

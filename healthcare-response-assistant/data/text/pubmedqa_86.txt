@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 86
+
+QUESTION:
+Is it Crohn's disease?
+
+CONTEXT:
+{'contexts': ['Sulfasalazine is a widely used anti-inflammatory agent in the treatment of inflammatory bowel disease and several rheumatological disorders. Although as many as 20% of treated patients may experience reversible, dose-dependent side effects, less frequent but potentially severe, systemic reactions have also been reported.', 'A severe systemic reaction to sulfasalazine developed in a 21-year old female with rheumatoid arthritis characterized by eosinophilia, granulomatous enteritis and myelotoxicity, cholestatic hepatitis, and seizures. The clinical course and management of this patient are presented as well as a review of the incidence and outcome of severe systemic reactions to sulfasalazine.'], 'labels': ['BACKGROUND', 'CASE PRESENTATION'], 'meshes': ['Adult', 'Antirheumatic Agents', 'Arthritis, Rheumatoid', 'Chemical and Drug Induced Liver Injury', 'Crohn Disease', 'Diagnosis, Differential', 'Enteritis', 'Eosinophilia', 'Female', 'Granuloma', 'Humans', 'Seizures', 'Sulfasalazine'], 'reasoning_required_pred': ['m', 'a', 'y', 'b', 'e'], 'reasoning_free_pred': ['m', 'a', 'y', 'b', 'e']}
+
+LONG_ANSWER:
+Granulomatous myelotoxicity and enteritis developed in a 21 year old female within 3 weeks of initiating sulfasalazine for rheumatoid arthritis. Following a short course of corticosteroids, the patient had resolution of her cholestatic hepatitis, rash, eosinophilia, and gastrointestinal symptoms with no residual manifestations at 7 months follow-up. Although severe reactions to sulfasalazine are rare and unpredictable, practicing physicians should be aware of unusual clinical presentations of toxicity when prescribing sulfasalazine.

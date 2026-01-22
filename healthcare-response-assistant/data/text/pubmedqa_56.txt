@@ -1,0 +1,11 @@
+SOURCE: pubmed_qa
+ID: 56
+
+QUESTION:
+Does immediate breast reconstruction compromise the delivery of adjuvant chemotherapy?
+
+CONTEXT:
+{'contexts': ['Immediate breast reconstruction (IBR) provides psychological benefit to many early breast cancer patients however concerns persist regarding its potential impact on chemotherapy delivery. We investigated the association between IBR, complications and adjuvant chemotherapy delivery.', 'Retrospective analysis of patients in an academic breast service, who underwent mastectomy, with or without reconstruction, and received adjuvant chemotherapy.', 'Comparisons were made between 107 patients who received IBR and 113 who received mastectomy alone. Those receiving IBR were on average younger, with lower body mass index (BMI) and better prognoses. Overall complication rates were comparable (mastectomy alone: 45.1% versus IBR: 35.5%, p = 0.2). There was more return to surgery in the IBR group with 11.5% of tissue expanders requiring removal, whilst more seromas occurred in the mastectomy group. There was no significant difference in the median time to chemotherapy.'], 'labels': ['BACKGROUND', 'METHOD', 'RESULTS'], 'meshes': ['Adult', 'Aged', 'Antineoplastic Agents', 'Antineoplastic Combined Chemotherapy Protocols', 'Breast Neoplasms', 'Chemotherapy, Adjuvant', 'Cisplatin', 'Cyclophosphamide', 'Doxorubicin', 'Female', 'Fluorouracil', 'Humans', 'Incidence', 'Kaplan-Meier Estimate', 'Logistic Models', 'Mammaplasty', 'Mastectomy', 'Methotrexate', 'Middle Aged', 'Multivariate Analysis', 'Postoperative Complications', 'Retrospective Studies', 'Taxoids', 'Time Factors', 'Treatment Outcome'], 'reasoning_required_pred': ['n', 'o'], 'reasoning_free_pred': ['n', 'o']}
+
+LONG_ANSWER:
+We found no evidence that IBR compromised the delivery of adjuvant chemotherapy, although there was a significant incidence of implant infection.
