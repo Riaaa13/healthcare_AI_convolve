@@ -43,48 +43,48 @@ cd healthcare-response-assistant
 
 ### 2)Create and activate virtual environment
 for (Windows (CMD))
-python -m venv venv
-venv\Scripts\activate.bat
+-python -m venv venv
+-venv\Scripts\activate.bat
 ### 3)Install dependencies 
-pip install qdrant-client sentence-transformers fastapi uvicorn pypdf pillow torch torchvision transformers datasets
+-pip install qdrant-client sentence-transformers fastapi uvicorn pypdf pillow torch torchvision transformers datasets
 
 
 ### 4) Run Qdrant (Docker)
 4) Start Qdrant
-Open a new terminal and run the following:
-docker run -p 6333:6333 -p 6334:6334 -v qdrant_storage:/qdrant/storage qdrant/qdrant
+-Open a new terminal and run the following:
+-docker run -p 6333:6333 -p 6334:6334 -v qdrant_storage:/qdrant/storage qdrant/qdrant
 
 ### 5) Create Collections
  Create Qdrant collections and then check by running this in your terminal:
-python src/create_collections.py
+-python src/create_collections.py
 
 ### 6)Add Documents (PDF/TXT)
  Add your files to data/text/
 
 Put your guideline PDFs and/or .txt files here:
-data/text/
-Examples include :
+-data/text/
+-Examples include :
   example_guideline.pdf
   example_notes.txt
 
 ### 7)Ingest Documents into Qdrant
  Ingest the knowledge base and then run this in your terminal
-python src/ingest_kb.py
+-python src/ingest_kb.py
 
-Run this again whenever you add/update files in data/text/.
+-Run this again whenever you add/update files in data/text/.
 
 ### 8)Test Search (Optional)
 Test knowledge base search by running this in terminal:
-python src/search_kb.py
+-python src/search_kb.py
 
-Example query:
+-Example query:
 
 fever precautions
 mental health support
 
 ### 9)Store Patient Memory (Optional)
  Store memory for a user
-python src/memory.py
+-python src/memory.py
 
 
 Example memory:
@@ -94,11 +94,11 @@ Example memory:
 
 ### 10)Run the API (FastAPI)
  Start FastAPI server
-uvicorn src.app:app --reload
+-uvicorn src.app:app --reload
 
 
-Open Swagger UI:
-http://127.0.0.1:8000/docs
+-Open Swagger UI:
+-http://127.0.0.1:8000/docs
 
 Ask a Query (API)
 11) Use /ask endpoint
